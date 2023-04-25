@@ -974,7 +974,7 @@ section {}
 	width: 500px;
 	max-width: 100%;
 	margin-top: 100px;
-	background: #FF9EC1;
+	background: #FFBC3A;
 	border-radius: 32px;
 
 	@media(max-width:$sm) {
@@ -986,10 +986,11 @@ section {}
 
 		img {
 			display: inline-block;
-			width: calc(100% + 240px);
-			max-width: calc(100% + 240px);
-			margin-top: -20px;
-			margin-left: -120px;
+			width: calc(100% + 180px);
+			max-width: calc(100% + 180px);
+			margin-right: -120px;
+		
+			margin-left: -60px;
 
 			@media(max-width:$sm) {
 				width: calc(100% + 100px);
